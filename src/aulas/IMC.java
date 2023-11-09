@@ -21,6 +21,23 @@ public class IMC {
 
         System.out.println("Seu Indice de Massa Corporal é :" + Imc);
 
+            if (Imc<=18.5){
+                System.out.println("Você está no normal.");
+            }else if (Imc>=18.5 && Imc<=24.9) {
+                System.out.println("você está com Magreza");
+            }
+            if (Imc>=25 && Imc<=29.9) {
+                System.out.println("Você está com sobre peso");
+            } else
+            if (Imc>= 30  && Imc<=34.9){
+                System.out.println( "Você está com Obesidade grau 1");
+            } else
+            if (Imc>=35 && Imc<= 39.9) {
+                System.out.println("Você está com Obesidade grau 2");
+            } else
+            if (Imc>40.0){
+                System.out.println("Você está com Obesidade grau 3 ");
+            }
 
 
     }
