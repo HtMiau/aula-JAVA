@@ -15,16 +15,14 @@ public class IMC {
         peso = valor.nextFloat();
 
         System.out.println(" insira sua altura ");
-        altura = valor.nextFloat();
 
-        Imc= peso/(altura*altura);
 
         System.out.println("Seu Indice de Massa Corporal é :" + Imc);
 
             if (Imc<=18.5){
-                System.out.println("Você está no normal.");
+                System.out.println("Você está no magreza.");
             }else if (Imc>=18.5 && Imc<=24.9) {
-                System.out.println("você está com Magreza");
+                System.out.println("você está normal");
             }
             if (Imc>=25 && Imc<=29.9) {
                 System.out.println("Você está com sobre peso");
